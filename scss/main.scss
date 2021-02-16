@@ -1,8 +1,9 @@
-@import "../_COG-Framework-2020/scss/cognizant-framework-2020.scss";
-@import "../_COG-Framework-2020/scss/_cog_settings.scss";
+// @import "../_COG-Framework-2020/scss/cognizant-framework-2020.scss";
+// @import "../_COG-Framework-2020/scss/_cog_settings.scss";
 
 body {
-  font-family: $cog-font-family--brand;
+  // font-family: $cog-font-family--brand;
+  font-family: sans-serif;
 }
 
 .container {
@@ -65,10 +66,10 @@ h1 {
 
 /* ---- grid ---- */
 
-.grid {
-  // border: 1px solid #333;
-  /* max-width: 1200px; */
-}
+// .grid {
+//   // border: 1px solid #333;
+//   /* max-width: 1200px; */
+// }
 
 /* clear fix */
 .grid:after {
@@ -87,6 +88,13 @@ h1 {
   margin: 1px;
   padding: 10px;
   color:white;
+}
+
+.element-item:hover {
+  transition: transform .5s;
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
 }
 
 .element-item > * {
