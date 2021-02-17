@@ -1,0 +1,25 @@
+{
+  "name": "glossary-test",
+  "version": "1.0.0",
+  "description": "glossary-test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfrancisco726/glossary-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfrancisco726/glossary-test/issues"
+  },
+  "homepage": "https://github.com/cfrancisco726/glossary-test#readme",
+  "dependencies": {
+    "foundation-sites": "^6.6.3"
+  }
+}

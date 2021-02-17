@@ -14,7 +14,7 @@ h1 {
 /* ---- button ---- */
 .button {
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 0.5em 1.0em;
   margin-bottom: 10px;
   border: none;
   border-radius: 7px;
@@ -46,7 +46,7 @@ h1 {
 
 /* ---- button-group ---- */
 .button-group:after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -69,7 +69,7 @@ h1 {
 /* ---- grid ---- */
 /* clear fix */
 .grid:after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -86,10 +86,8 @@ h1 {
 }
 
 .element-item:hover {
-  transition: transform 0.5s;
-  -ms-transform: scale(1.05);
+  transition: transform .5s;
   /* IE 9 */
-  -webkit-transform: scale(1.05);
   /* Safari 3-8 */
   transform: scale(1.05);
 }
@@ -160,3 +158,4 @@ h1 {
 .element-item.cloud-infrastructure-services {
   background: #1177ed;
 }
+/*# sourceMappingURL=main.css.map */
